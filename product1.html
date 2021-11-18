@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects Page || Agrikon || HTML Template For Agriculture Farm & Farmers</title>
+    <title>Project Details || Agrikon || HTML Template For Agriculture Farm & Farmers</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="assets/css/agrikon-icons.css">
     <link rel="stylesheet" href="assets/css/nouislider.min.css">
     <link rel="stylesheet" href="assets/css/nouislider.pips.css">
+    <link rel="stylesheet" href="assets/css/jquery.bootstrap-touchspin.css">
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/main.css">
@@ -102,65 +103,68 @@
                 <ul class="thm-breadcrumb list-unstyled">
                     <li><a href="index.html">Home</a></li>
                     <li>/</li>
-                    <li><span>Our Shop</span></li>
+                    <li><span>Project Details</span></li>
                 </ul>
                 <!-- /.thm-breadcrumb list-unstyled -->
-                <h2>Shop in style</h2>
+                <h2>Project Details</h2>
             </div>
             <!-- /.container -->
         </section>
         <!-- /.page-header -->
-
-        <div class="projects-one">
+        <section class="project-details">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="projects-one__single">
-                            <img src="assets/images/projects/shop_product1_thumbnail.jpg" alt="">
-                            <div class="projects-one__content">
-                                <h3>Mini Pixie Syngonium</h3>
-                                <h6>Tanaman Mini dengan Pot Plastik Tawon Putih</h6>
-                                <br>
-                                <p>IDR 45,000</p>
-                                <a href="product1.html" class="projects-one__button"><i
-                                        class="agrikon-icon-right-arrow"></i></a>
-                                <!-- /.projects-one__button -->
-                            </div>
-                            <!-- /.projects-one__content -->
-                        </div>
-                        <div style="text-align: left;">
-                            <h3>Mini Pixie Syngonium</h3>
-                            <p>IDR 45,000</p>
-                        </div>
-                        <!-- /.projects-one__single -->
-                    </div>
-                    <!-- /.col-sm-12 -->
-                    <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="projects-one__single">
-                            <img src="assets/images/projects/shop_product2_thumbnail.jpg" alt="">
-                            <div class="projects-one__content">
-                                <h3>Leaf Shine VCO</h3>
-                                <h6>Pengkilap Daun Organic</h6>
-                                <br>
-                                <p>IDR 10,000</p>
-                                <a href="product2.html" class="projects-one__button"><i
-                                        class="agrikon-icon-right-arrow"></i></a>
-                                <!-- /.projects-one__button -->
-                            </div>
-                            <!-- /.projects-one__content -->
-                        </div>
-                        <!-- /.projects-one__single -->
-                        <div style="text-align: left;">
-                            <h3>Leaf Shine VCO</h3>
-                            <p>IDR 10,000</p>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="product_detail_image">
+                            <img src="assets/images/projects/shop_product1_detail1.jpg" alt="Mini Pixie Syngonium">
                         </div>
                     </div>
-                    <!-- /.col-sm-12 -->
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="product_detail_content">
+                            <h2>Mini Pixie Syngonium</h2>
+                            <div class="product_detail_review_box">
+                                <div class="product_detail_price_box">
+                                    <p>IDR 45,000/POT</p>
+                                </div>
+                                <div class="product_detail_review">
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#"><i class="fa fa-star"></i></a>
+                                    <a href="#" class="deactive"><i class="fa fa-star"></i></a>
+                                </div>
+                            </div>
+                            <div class="product_detail_text">
+                                <p>*Include pot putih tawon dan serabut kelapa seperti di foto</p>
+                                <p><strong>Cara Perawatan: </strong></p>
+                            </div>
+                            <ul class="list-unstyled product_detail_address">
+                                <li>Letakkan di ruangan yang memiliki sirkulasi udara yang baik, ada sedikit sinar matahari tapi tidak langsung⁣⁣⁣⁣⁣.</li>
+                                <li>Bisa di indoor room ber-AC⁣⁣⁣⁣⁣.</li>
+                                <li>Lakukan perollingan dua minggu di dalam ruangan, 1 minggu di teras adem.⁣⁣⁣⁣⁣</li>
+                                <li>Siram secara rutin, minimal 1x dalam seminggu</li>
+                                <li>Berikan vitamin tanaman &amp; pestisida secara berkala.⁣⁣⁣⁣⁣</li>
+                            </ul>
+                            <div class="product-quantity-box">
+                                <div class="input-box">
+                                    <input class="quantity-spinner" type="text" value="1" name="quantity">
+                                </div>
+                                <div class="addto-cart-box">
+                                    <button class="thm-btn" type="submit">Add to Cart</button>
+                                </div>
+                                <div class="wishlist_btn">
+                                    <a href="#" class="thm-btn">Add to Wishlist</a>
+                                </div>
+                            </div>
+                            <ul class="list-unstyled category_tag_list">
+                                <li>Category: Food</li>
+                                <li>Tags: Vegetables, Fruits</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <!-- /.row -->
             </div>
-            <!-- /.container -->
-        </div>
+        </section>
         <!-- /.projects-one -->
         <footer class="site-footer">
             <img src="assets/images/icons/footer-bg-icon-1.png" class="site-footer__shape-1" alt="">
@@ -212,7 +216,11 @@
             <!-- /.container -->
         </div>
         <!-- /.bottom-footer -->
+
     </div>
+    <!-- /.page-wrapper -->
+
+
     <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
         <!-- /.mobile-nav__overlay -->
@@ -299,6 +307,7 @@
     <script src="assets/js/circle-progress.min.js"></script>
     <script src="assets/js/wNumb.min.js"></script>
     <script src="assets/js/nouislider.min.js"></script>
+    <script src="assets/js/jquery.bootstrap-touchspin.js"></script>
 
     <!-- template js -->
     <script src="assets/js/theme.js"></script>
