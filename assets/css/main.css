@@ -2865,7 +2865,7 @@ h6 {
     align-items: center;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 1199px) {
     .main-menu .logo-box {
         width: 100%;
         -webkit-box-pack: justify;
@@ -2875,14 +2875,8 @@ h6 {
 }
 
 @media (max-width: 1199px) {
-    .main-menu .logo-box .mobile-nav__toggler {
-        margin-left: 20px;
-    }
-}
-
-@media (max-width: 1199px) {
     .main-menu .main-header__info {
-        margin-left: auto;
+        margin-right: auto;
     }
 }
 
